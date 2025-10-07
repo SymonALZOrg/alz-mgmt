@@ -182,20 +182,12 @@ management_group_settings = {
     private_dns_zone_resource_group_name        = "$${dns_resource_group_name}"
   }
   subscription_placement = {
-    identity = {
-      subscription_id       = "$${subscription_id_identity}"
-      management_group_name = "management"
-    }
     connectivity = {
       subscription_id       = "$${subscription_id_connectivity}"
       management_group_name = "connectivity"
     }
     management = {
       subscription_id       = "$${subscription_id_management}"
-      management_group_name = "management"
-    }
-    security = {
-      subscription_id       = "$${subscription_id_security}"
       management_group_name = "management"
     }
   }
@@ -394,5 +386,6 @@ hub_and_spoke_vnet_virtual_networks = {
   }
 
 }
+
 
 
