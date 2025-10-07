@@ -184,7 +184,7 @@ management_group_settings = {
   subscription_placement = {
     identity = {
       subscription_id       = "$${subscription_id_identity}"
-      management_group_name = "identity"
+      management_group_name = "management"
     }
     connectivity = {
       subscription_id       = "$${subscription_id_connectivity}"
@@ -196,7 +196,7 @@ management_group_settings = {
     }
     security = {
       subscription_id       = "$${subscription_id_security}"
-      management_group_name = "security"
+      management_group_name = "management"
     }
   }
   policy_assignments_to_modify = {
@@ -394,4 +394,5 @@ hub_and_spoke_vnet_virtual_networks = {
   }
 
 }
+
 
