@@ -223,6 +223,15 @@ management_group_settings = {
         }
       }
     }
+    landingzones = {
+      policy_assignments = {
+        Deny-Priv-Esc-AKS = {
+          parameters = {
+            effect = "Deny"
+          }
+        }
+      }
+    }
   }
   /*
   # Example of how to add management group role assignments
@@ -383,4 +392,6 @@ hub_and_spoke_vnet_virtual_networks = {
       }
     }
   }
+
 }
+
