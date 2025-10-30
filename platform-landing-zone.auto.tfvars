@@ -228,6 +228,8 @@ management_group_settings = {
         Deny-Priv-Esc-AKS = {
           parameters = {
             effect = "Deny"
+            
+            
           }
         }
       }
@@ -392,9 +394,4 @@ hub_and_spoke_vnet_virtual_networks = {
       }
     }
   }
-
 }
-
-
-
-
