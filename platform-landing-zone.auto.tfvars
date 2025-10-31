@@ -52,7 +52,7 @@ custom_replacements = {
     primary_firewall_management_ip_enabled                               = true
     primary_virtual_network_gateway_express_route_enabled                = false
     primary_virtual_network_gateway_express_route_hobo_public_ip_enabled = true
-    primary_virtual_network_gateway_vpn_enabled                          = false
+    primary_virtual_network_gateway_vpn_enabled                          = true
     primary_private_dns_zones_enabled                                    = false
     primary_private_dns_auto_registration_zone_enabled                   = true
     primary_private_dns_resolver_enabled                                 = true
@@ -228,6 +228,8 @@ management_group_settings = {
         Deny-Priv-Esc-AKS = {
           parameters = {
             effect = "Deny"
+            
+            
           }
         }
       }
@@ -392,9 +394,4 @@ hub_and_spoke_vnet_virtual_networks = {
       }
     }
   }
-
 }
-
-
-
-
