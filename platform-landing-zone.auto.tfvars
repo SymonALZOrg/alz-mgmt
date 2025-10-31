@@ -182,7 +182,7 @@ management_group_settings = {
     private_dns_zone_resource_group_name        = "$${dns_resource_group_name}"
   }
   subscription_placement = {
-    identity = {
+    /*identity = {
       subscription_id       = "$${subscription_id_identity}"
       management_group_name = "identity"
     }
@@ -197,7 +197,7 @@ management_group_settings = {
     security = {
       subscription_id       = "$${subscription_id_security}"
       management_group_name = "security"
-    }
+    }*/
   }
   policy_assignments_to_modify = {
     alz = {
@@ -394,4 +394,5 @@ hub_and_spoke_vnet_virtual_networks = {
       }
     }
   }
+
 }
